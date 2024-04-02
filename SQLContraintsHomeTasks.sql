@@ -42,3 +42,7 @@ select * from Teachers where [Age]>20
 
 
 select * from Teachers where[Email] like '%c%'
+
+declare @VAR
+
+select * from Teachers where[Email] like '%c%' 
